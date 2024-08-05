@@ -1,6 +1,6 @@
 # ai
 
-# Write a Program to Implement Breadth First Search using Python. 
+# 1. Write a Program to Implement Breadth First Search using Python. 
 
 ```py 
 import matplotlib.pyplot as plt
@@ -35,7 +35,7 @@ plt.show()
 ```
 
 
-# Write a Program to Implement Depth First Search using Python
+# 2. Write a Program to Implement Depth First Search using Python
 
 ```py
 import matplotlib.pyplot as plt
@@ -63,7 +63,7 @@ nx.draw(G, pos, with_labels=True, node_size=1000, node_color="lightblue", font_s
 plt.title("Graph Visualization")
 plt.show()
 ```
-# Write a Program to implement a tower of Hanoi using python.
+# 3. Write a Program to implement a tower of Hanoi using python.
 
 ```py
 def tower_of_hanoi(disks, source, auxiliary, target):
@@ -76,7 +76,7 @@ def tower_of_hanoi(disks, source, auxiliary, target):
 disks = int(input('Enter the number of disks: '))
 tower_of_hanoi(disks, 'A', 'B', 'C')
 ```
-# Write a Program to implement a simple chatbot using python.
+# 4. Write a Program to implement a simple chatbot using python.
 
 ```py
 print("How are you?")
@@ -105,7 +105,7 @@ while True:
     else:
                 print("I don't understand what you said")
 ```
-# Write a Program to Implement a Linear Regression using Python. 
+# 5. Write a Program to Implement a Linear Regression using Python. 
 
 ```py
 import numpy as np
@@ -126,7 +126,7 @@ plt.show()
 print('Intercept:', model.intercept_)
 print('Slope:', model.coef_[0])
 ```
-# Write a Program to implement Hangman Game using python.
+# 6. Write a Program to implement Hangman Game using python.
 
 ```py
 import time
@@ -161,7 +161,7 @@ while chance > 0:
         if chance == 0:           
             print ("You Lose! Better Luck Next Time" )
 ```
-# Write a Program to implement the Time series using python.
+# 7. Write a Program to implement the Time series using python.
 
 ```py
 import numpy as np
@@ -181,7 +181,7 @@ plt.title("Simple Moving Average")
 plt.legend()
 plt.show()
 ```
-# Write a Program to implement the K means Clustering using python.
+# 8. Write a Program to implement the K means Clustering using python.
 
 ```py
 import numpy as np
